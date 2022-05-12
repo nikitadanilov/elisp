@@ -28,7 +28,7 @@ PATH, (2) directory part of the local path.
 
 For example: 
 
-((\"/home/user/projects/foo\" . \"rsync --rsync-path=\\\"mkdir -p '/home/other/%2$s' && rsync\" -azq '%1$s' 'other@vm:/home/other/%3$s'\"))"
+((\"/home/user/projects/foo\" . \"rsync --rsync-path=\\\"mkdir -p '/home/other/%2$s' && rsync\\\" -azq '%1$s' 'other@vm:/home/other/%3$s'\"))"
   :group 'ros
   :type '(repeat (cons string string)))
 (provide 'ros)
